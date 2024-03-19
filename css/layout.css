@@ -10,20 +10,12 @@
   background-color: white;
 }
 
-.side-bar__nav{
-
-}
-
-.section-hero{
-
-}
-
 .section-daily-food{
   padding: 12rem 0;
 }
 
 .section-reservation{
-  height: 90vh;
+  height: 90rem;
 }
 
 .section-food-gallery{
@@ -48,6 +40,11 @@
   .footer{
     height: auto;
   }
+
+  
+  .section-reservation{
+    height: 80rem;
+  }
 }
 
 @media (max-width: 900px){
@@ -60,7 +57,7 @@
   }
   
   .section-reservation{
-    height: 72vh;
+    height: 70rem;
   }
 
   .footer{
@@ -78,6 +75,10 @@
   .side-bar2{
     opacity: 0;
     visibility: hidden;
+  }
+
+  .section-reservation{
+    height: 65rem;
   }
 
   .section-daily-food{
