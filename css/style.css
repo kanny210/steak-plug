@@ -59,8 +59,9 @@ body{
 .btn:link,
 .btn:visited{
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.6rem;
+  color: black;
   border: 1px solid red;
   background-color: white;
   padding: 1.2rem 2rem;
@@ -81,6 +82,10 @@ body{
   background-color: red;
   color: black !important;
   white-space: nowrap;
+}
+
+.btn-others:hover{
+  color: white !important;
 }
 
 .btn:hover,
