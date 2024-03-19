@@ -92,6 +92,7 @@ iframe{
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
   align-self: flex-end;
+  color: white !important;
   background-image: linear-gradient(to right bottom, red, orange);
 }
 
