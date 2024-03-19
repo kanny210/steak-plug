@@ -1,5 +1,4 @@
-.side-bar,
-.side-bar2{
+.side-bar{
   position: fixed;
   top: 0;
   right: 0;
@@ -24,7 +23,7 @@
 }
 
 .section-reservation{
-  min-height: 80vh;
+  height: 90vh;
 }
 
 .section-food-gallery{
@@ -59,9 +58,9 @@
   .section-associations{
     padding: 5rem 0;
   }
-
+  
   .section-reservation{
-    min-height: 72vh;
+    height: 72vh;
   }
 
   .footer{
