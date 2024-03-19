@@ -55,7 +55,9 @@ body{
   padding-right: 16rem;
 }
 /*BUTTON*/
-.btn{
+.btn,
+.btn:link,
+.btn:visited{
   text-transform: uppercase;
   font-weight: 300;
   font-size: 1.6rem;
