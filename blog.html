@@ -1,0 +1,469 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://api.fontshare.com/v2/css?f[]=telma@900,300,700,500,400&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@200,500,300,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <title>blog</title>
+</head>
+<body>
+
+  <!--navigation for small screens-->
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+  
+    <div class="navigation__background">&nbsp;</div>
+  
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-home">
+            </svg>
+          <span>home</span>
+        </a>
+        </li>
+        <li class="navigation__item">
+          <a href="about.html" class="navigation__link">
+              <svg class="navigation-nav__icon">
+                <use xlink:href="images/sprite.svg#icon-info">
+              </svg>
+            <span>about</span>
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-list2">
+            </svg>
+          <span>menu</span>
+        </a>
+        </li>
+        <li class="navigation__item">
+          <a href="book.html" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-open-book">
+            </svg>
+          <span>book table</span>
+        </a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-users">
+            </svg>
+          <span>chef</span>
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-copy"></use>
+            </svg>
+          <span>pages</span>
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="blog.html" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-credit-card">
+            </svg>
+          <span>blog</span>
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-mail4">
+            </svg>
+          <span>contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+
+  <div class="side-bar">
+    <div class="side-bar__nav">
+      <img src="images/logo.png.webp" alt="logo" class="logo">
+      <ul class="side-bar__ul">
+        <li class="side-bar__list">
+          <a href="index.html" class="side-bar__link">
+            <svg class="side-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-home">
+            </svg>
+          <span class="side-bar__link-span">home</span>
+        </a>
+      </li>
+      <li class="side-bar__list">
+        <a href="about.html" class="side-bar__link">
+          <svg class="side-nav__icon">
+            <use xlink:href="images/sprite.svg#icon-info">
+          </svg>
+        <span class="side-bar__link-span">about</span>
+      </a>
+    </li>
+    <li class="side-bar__list">
+      <a href="menu.html" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-list2">
+        </svg>
+      <span class="side-bar__link-span">menu</span>
+    </a>
+    </li>
+      <li class="side-bar__list">
+        <a href="book.html" class="side-bar__link">
+          <svg class="side-nav__icon">
+            <use xlink:href="images/sprite.svg#icon-open-book">
+          </svg>
+        <span class="side-bar__link-span">book table</span>
+      </a>
+    </li>
+    <li class="side-bar__list">
+      <a href="#" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-users">
+        </svg>
+      <span class="side-bar__link-span">chef</span>
+    </a>
+    </li>
+    <li class="side-bar__list">
+      <a href="#" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-copy">
+        </svg>
+      <span class="side-bar__link-span">pages</span>
+     </a>
+    </li>
+    <li class="side-bar__list side-nav__item--active">
+      <a href="blog.html" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-credit-card">
+        </svg>
+      <span class="side-bar__link-span">blog</span>
+    </a>
+    </li>
+    <li class="side-bar__list">
+      <a href="#" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-mail4">
+        </svg>
+      <span class="side-bar__link-span">contact</span>
+    </a>
+    </li>
+      </ul>
+    </div>
+  </div>
+
+ <main>
+  <section class="section-hero">
+    <div class="hero">
+      <div class="hero__image">
+        <img src="images/hero2.jpg" alt="">
+      </div>
+
+      <div class="hero__content">
+        <div class="her0__text">
+          <h2 class="primary-heading">
+            Blog Details
+          </h2>
+          <p class="hero__paragraph">
+            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct
+             standards especially in the workplace. That’s why it’s crucial that, as women.
+          </p>
+        </div>
+
+        <a href="#" class="btn btn-others">
+          home &rarr; blog
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-blog">
+    <div class="center-container">
+      <div class="blog">
+        <div class="blog-left">
+          <img srcset="images/riding-horse-small.jpg 300w, images/riding-horse.jpg 1000w"
+          sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+          class="blog__main-photo"
+           alt="blog photo">
+  
+           <div class="blog__text">
+            <div class="blog__user-details">
+              <a href="" class="blog__category">
+                Food, <span>Technology,</span> <br>Politics, Lifestyle
+              </a>
+              <a href="#" class="blog__small-details blog__user-name">
+                Mark wiens
+                <svg class="blog__user-icon">
+                  <use xlink:href="images/sprite.svg#icon-user">
+                </svg>
+              </a>
+              <a href="#" class="blog__small-details blog__date">
+                12 Dec, 2017
+                <svg class="blog__user-icon">
+                  <use xlink:href="images/sprite.svg#icon-calendar">
+                </svg>
+              </a>
+              <a href="#" class="blog__small-details blog__views">
+                1.2M views
+                <svg class="blog__user-icon">
+                  <use xlink:href="images/sprite.svg#icon-view-show">
+                </svg>
+              </a>
+              <a href="#" class="blog__small-details blog__comments">
+                06 comments
+                <svg class="blog__user-icon">
+                  <use xlink:href="images/sprite.svg#icon-bubble">
+                </svg>
+              </a>
+  
+              <div class="blog__scocials">
+                <a href="#">
+                  <svg class="blog__socials__icon">
+                    <use xlink:href="images/sprite.svg#icon-facebook">
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="blog__socials__icon">
+                    <use xlink:href="images/sprite.svg#icon-twitter">
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="blog__socials__icon">
+                    <use xlink:href="images/sprite.svg#icon-instagram">
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="blog__socials__icon">
+                    <use xlink:href="images/sprite.svg#icon-snapchat-ghost">
+                  </svg>
+                </a>
+              </div>
+            </div>
+  
+            <div class="blog__paragraph-container">
+              <h2 class="primary-heading blog__heading small-margin-bottom">Astronomy Binoculars A Great Alternative</h2>
+              <div class="blog__paragragh">
+                MCSE boot camps have its supporters and its detractors. Some people do not understand why you
+                 should have to spend money on boot camp when you can get the MCSE study
+                  materials yourself at a fraction.
+              </div>
+              <div class="blog__paragragh">
+                Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually
+                 sit through a self-imposed MCSE training.
+                  who has the willpower to actually sit through a self-imposed
+              </div>
+              <div class="blog__paragragh">
+                Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually
+                 sit through a self-imposed MCSE training.
+                  who has the willpower to actually sit through a self-imposed
+              </div>
+            </div>
+           </div>
+  
+           <div class="blog__paragragh">
+            Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually
+             sit through a self-imposed MCSE training.
+              who has the willpower to actually sit through a self-imposed
+          </div>
+
+          <div class="blog__photos">
+            <img src="images/chef.jpg" alt="blog photo 1">
+            <img src="images/blog-photo.jpg" alt="blog photo 2">
+          </div>
+
+          <div class="blog__paragragh">
+            Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually
+             sit through a self-imposed MCSE training.
+              who has the willpower to actually sit through a self-imposed
+          </div>
+
+          <div class="blog__paragragh">
+            Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually
+             sit through a self-imposed MCSE training.
+              who has the willpower to actually sit through a self-imposed
+          </div>
+        </div>
+        
+        <div class="blog-right">
+          <div class="blog__writer">
+            <form action="#" class="blog__search-box">
+              <input type="text" class="blog__search-input" placeholder="search posts">
+              <svg class="blog__search-icon">
+                <use xlink:href="images/sprite.svg#icon-search">
+              </svg>
+            </form>
+
+            <div class="blog__right-content">
+              <img src="images/blog-photo.jpg" alt="" class="blog__writer-photo">
+              <p class="blog__writer-name">Charlie Barber</p>
+              <p class="blog__writer-position">Senior blog writer</p>
+
+              <div class="blog__scocials">
+                <a href="#">
+                  <svg class="blog__socials__icon">
+                    <use xlink:href="images/sprite.svg#icon-facebook">
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="blog__socials__icon">
+                    <use xlink:href="images/sprite.svg#icon-twitter">
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="blog__socials__icon">
+                    <use xlink:href="images/sprite.svg#icon-instagram">
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="blog__socials__icon">
+                    <use xlink:href="images/sprite.svg#icon-snapchat-ghost">
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="blog__paragragh">
+              Boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually
+               sit through a self-imposed MCSE training.
+                who has the willpower to actually sit through a self-imposed
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ </main> 
+
+ <footer class="footer">
+  <div class="center-container">
+    <div class="footer__box">
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">top products</h2>
+        <ul class="footer__ul">
+          <li class="footer__link">
+            <a href="" class="footer__item">Managed Website</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">Manage Reputation</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">power tools</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">marketing services</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">quick links</h2>
+        <ul class="footer__ul">
+          <li class="footer__link">
+            <a href="" class="footer__item">jobs</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">brand assets</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">investor relations</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">terms of serive</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">features</h2>
+        <ul class="footer__ul">
+          <li class="footer__link">
+            <a href="" class="footer__item">jobs</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">brand assets</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">investor relations</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">terms of serive</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">resources</h2>
+        <ul class="footer__ul">
+          <li class="footer__link">
+            <a href="" class="footer__item">guides</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">research</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">experts</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">agencies</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">newsletters</h2>
+        <form action="#" class="footer__form">
+          <label for="footer__form-input" class="footer__form-label">Stay update with our latest</label>
+          <input type="text" placeholder="your email address" id="footer__form-input"
+           class="footer__form-input">
+           <a href="#" class="footer__form-enter">
+              <span>&rarr;</span>
+           </a>
+        </form>
+      </div>
+
+      <div class="footer__ending">
+        <div class="copyright">
+          copyright @2024 all rights reserved: this was coded by kanny
+        </div>
+        <div class="scocials">
+          <a href="#">
+            <svg class="socials__icon">
+              <use xlink:href="images/sprite.svg#icon-facebook">
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="socials__icon">
+              <use xlink:href="images/sprite.svg#icon-twitter">
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="socials__icon">
+              <use xlink:href="images/sprite.svg#icon-instagram">
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="socials__icon">
+              <use xlink:href="images/sprite.svg#icon-snapchat-ghost">
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </footer>
+</body>
+</html>

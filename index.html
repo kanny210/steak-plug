@@ -1,0 +1,488 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://api.fontshare.com/v2/css?f[]=telma@900,300,700,500,400&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@200,500,300,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <title>steak webapp</title>
+</head>
+<body>
+
+  <!--navigation for small screens-->
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+  
+    <div class="navigation__background">&nbsp;</div>
+  
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-home">
+            </svg>
+          <span>home</span>
+        </a>
+        </li>
+        <li class="navigation__item">
+          <a href="about.html" class="navigation__link">
+              <svg class="navigation-nav__icon">
+                <use xlink:href="images/sprite.svg#icon-info">
+              </svg>
+            <span>about</span>
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-list2">
+            </svg>
+          <span>menu</span>
+        </a>
+        </li>
+        <li class="navigation__item">
+          <a href="book.html" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-open-book">
+            </svg>
+          <span>book table</span>
+        </a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-users">
+            </svg>
+          <span>chef</span>
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-copy"></use>
+            </svg>
+          <span>pages</span>
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="blog.html" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-credit-card">
+            </svg>
+          <span>blog</span>
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="contact.html" class="navigation__link">
+            <svg class="navigation-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-mail4">
+            </svg>
+          <span>contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+
+  <div class="side-bar">
+    <div class="side-bar__nav">
+      <img src="images/logo.png.webp" alt="logo" class="logo">
+      <ul class="side-bar__ul">
+        <li class="side-bar__list side-nav__item--active">
+          <a href="index.html" class="side-bar__link">
+            <svg class="side-nav__icon">
+              <use xlink:href="images/sprite.svg#icon-home">
+            </svg>
+          <span class="side-bar__link-span">home</span>
+        </a>
+      </li>
+      <li class="side-bar__list">
+        <a href="about.html" class="side-bar__link">
+          <svg class="side-nav__icon">
+            <use xlink:href="images/sprite.svg#icon-info">
+          </svg>
+        <span class="side-bar__link-span">about</span>
+      </a>
+    </li>
+    <li class="side-bar__list">
+      <a href="menu.html" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-list2">
+        </svg>
+      <span class="side-bar__link-span">menu</span>
+    </a>
+    </li>
+      <li class="side-bar__list">
+        <a href="book.html" class="side-bar__link">
+          <svg class="side-nav__icon">
+            <use xlink:href="images/sprite.svg#icon-open-book">
+          </svg>
+        <span class="side-bar__link-span">book table</span>
+      </a>
+    </li>
+    <li class="side-bar__list">
+      <a href="#" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-users">
+        </svg>
+      <span class="side-bar__link-span">chef</span>
+    </a>
+    </li>
+    <li class="side-bar__list">
+      <a href="#" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-copy">
+        </svg>
+      <span class="side-bar__link-span">pages</span>
+     </a>
+    </li>
+    <li class="side-bar__list">
+      <a href="blog.html" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-credit-card">
+        </svg>
+      <span class="side-bar__link-span">blog</span>
+    </a>
+    </li>
+    <li class="side-bar__list">
+      <a href="contact.html" class="side-bar__link">
+        <svg class="side-nav__icon">
+          <use xlink:href="images/sprite.svg#icon-mail4">
+        </svg>
+      <span class="side-bar__link-span">contact</span>
+    </a>
+    </li>
+      </ul>
+    </div>
+  </div>
+
+ <main>
+  <section class="section-hero">
+    <div class="hero">
+      <div class="hero__image">
+        <img src="images/hero2.jpg" alt="">
+      </div>
+
+      <div class="hero__content">
+        <div class="her0__text">
+          <h3 class="secondary-heading">
+            STEAK SHOP OFFERS BEST STEAK IN TOWN
+          </h3>
+          <h2 class="primary-heading">
+            STEAK SHOP OFFERS BEST STEAK IN TOWN
+          </h2>
+          <p class="hero__paragraph">
+            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct
+             standards especially in the workplace. That’s why it’s crucial that, as women.
+          </p>
+        </div>
+
+        <button class="btn">
+          explore menu
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-daily-food">
+    <div class="center-container">
+      <div class="daily-food">
+        <div class="daily-food__text">
+          <h2 class="primary-heading daily-food__heading">
+            Daily Food Courses with Drinks
+          </h2>
+          <p class="daily-food__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="daily-food__paragraph small-margin-top small-margin-bottom">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+
+          <button class="btn medium-margin-top">
+            see full menu
+          </button>
+        </div>
+
+        <div class="daily-food__image">
+          <img src="images/coffee.jpg" alt="cup of coffee" class="daily-food__image-1">
+          <img src="images/image1.jpg" alt="food" class="daily-food__image-2">
+        </div>
+      </div>
+
+      <div class="daily-food-2">
+        <div class="daily-food__text">
+          <h2 class="primary-heading daily-food__heading">
+            Daily Food Courses with Drinks
+          </h2>
+          <p class="daily-food__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="daily-food__paragraph small-margin-top small-margin-bottom">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </p>
+
+          <div class="daily-food__executive medium-margin-top">
+            <img src="images/person.jpg" alt="person" class="executive">
+            <div class="executive-deatils">
+              <h3 class="executive-name">mary jane</h3>
+              <p class="executive-position">CHIEF EXECUTIVE, AMAZON</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="daily-food__image">
+          <img src="images/image2.jpg" alt="cup of coffee" class="daily-food__image-1">
+          <img src="images/hero2.jpg" alt="food" class="daily-food-2__image-2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-reservation">
+    <div class="reservation">
+      <div class="reservation__image-container">
+        &nbsp;
+      </div>
+      <form class="reservation__form">
+        <h2 class="primary-heading reservation__heading">
+          Reservation Form
+        </h2>
+
+        <div class="form-group">
+          <input type="text" class="form" placeholder="name" id="name">
+          <label for="name" class="form__label">name</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form" placeholder="email address" id="email">
+          <label for="email" class="form__label">email address</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form" placeholder="phone number" id="phone">
+          <label for="phone" class="form__label">phone number</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form" placeholder="number of people" id="number">
+          <label for="number"  class="form__label">number of people</label>
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form" placeholder="select date & time" id="date">
+          <label for="date" class="form__label">select date & time</label>
+        </div>
+
+        <a class="btn medium-margin-top reservation__btn">
+          see full menu
+        </a>
+      </form>
+    </div>
+  </section>
+
+  <div class="center-container">
+    <div class="daily-food-2">
+      <div class="daily-food__text">
+        <h2 class="primary-heading daily-food__heading">
+          Daily Food Courses with Drinks
+        </h2>
+        <p class="daily-food__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p class="daily-food__paragraph small-margin-top small-margin-bottom">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+        </p>
+      </div>
+
+      <div class="daily-food__image daily-food__image2">
+        <img src="images/chef.jpg" alt="cup of coffee" class="daily-food__image-1">
+        <div class="reservation__food">
+          <img src="images/image1.jpg" alt="food" class="reservation__food-image
+           reservation__food-image-1">
+           <img src="images/hero.jpg" alt="food" class="reservation__food-image
+           reservation__food-image-1">
+           <img src="images/brooke-lark--F_5g8EEHYE-unsplash.jpg" alt="food" class="reservation__food-image
+           reservation__food-image-1">
+           <img src="images/hero2.jpg" alt="food" class="reservation__food-image
+           reservation__food-image-1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-food-gallery">
+    <div class="gallery">
+      <img src="images/food6.jpg.webp" alt="" class="gallery__photo">
+      <img src="images/food7.jpg.webp" alt="" class="gallery__photo">
+      <img src="images/food8.jpg (1).webp" alt="" class="gallery__photo">
+      <img src="images/brooke-lark--F_5g8EEHYE-unsplash.jpg" alt="" class="gallery__photo">
+      <img src="images/food6.jpg.webp" alt="" class="gallery__photo">
+      <img src="images/food7.jpg.webp" alt="" class="gallery__photo">
+      <img src="images/food8.jpg (1).webp" alt="" class="gallery__photo">
+      <img src="images/brooke-lark--F_5g8EEHYE-unsplash.jpg" alt="" class="gallery__photo">
+      <img src="images/food6.jpg.webp" alt="" class="gallery__photo">
+      <img src="images/food7.jpg.webp" alt="" class="gallery__photo">
+      <img src="images/food8.jpg (1).webp" alt="" class="gallery__photo">
+      <img src="images/brooke-lark--F_5g8EEHYE-unsplash.jpg" alt="" class="gallery__photo">
+    </div>
+  </section>
+
+  <section class="section-associations">
+    <div class="center-container">
+      <div class="association">
+        <h2 class="primary-heading medium-margin-bottom">
+          in association with
+        </h2>
+  
+        <p class="association__paragraph big-margin-bottom">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <div class="association__brands">
+          <img src="images/logo1.png.webp" alt="" class="brand-logos">
+          <img src="images/logo2.png.webp" alt="" class="brand-logos">
+          <img src="images/logo4.png.webp" alt="" class="brand-logos">
+          <img src="images/logo5.png.webp" alt="" class="brand-logos">
+          <img src="images/logo1.png.webp" alt="" class="brand-logos">
+        </div>
+      </div>
+    </div>
+  </section>
+ </main> 
+
+ <footer class="footer">
+  <div class="center-container">
+    <div class="footer__box">
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">top products</h2>
+        <ul class="footer__ul">
+          <li class="footer__link">
+            <a href="" class="footer__item">Managed Website</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">Manage Reputation</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">power tools</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">marketing services</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">quick links</h2>
+        <ul class="footer__ul">
+          <li class="footer__link">
+            <a href="" class="footer__item">jobs</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">brand assets</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">investor relations</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">terms of serive</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">features</h2>
+        <ul class="footer__ul">
+          <li class="footer__link">
+            <a href="" class="footer__item">jobs</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">brand assets</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">investor relations</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">terms of serive</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">resources</h2>
+        <ul class="footer__ul">
+          <li class="footer__link">
+            <a href="" class="footer__item">guides</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">research</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">experts</a>
+          </li>
+          <li class="footer__link">
+            <a href="" class="footer__item">agencies</a>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="footer__ul-box">
+        <h2 class="tertiary-heading small-margin-bottom">newsletters</h2>
+        <form action="#" class="footer__form">
+          <label for="footer__form-input" class="footer__form-label">Stay update with our latest</label>
+          <input type="text" placeholder="your email address" id="footer__form-input"
+           class="footer__form-input">
+           <a href="#" class="footer__form-enter">
+              <span>&rarr;</span>
+           </a>
+        </form>
+      </div>
+
+      <div class="footer__ending">
+        <div class="copyright">
+          copyright @2024 all rights reserved: this was coded by kanny
+        </div>
+        <div class="scocials">
+          <a href="#">
+            <svg class="socials__icon">
+              <use xlink:href="images/sprite.svg#icon-facebook">
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="socials__icon">
+              <use xlink:href="images/sprite.svg#icon-twitter">
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="socials__icon">
+              <use xlink:href="images/sprite.svg#icon-instagram">
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="socials__icon">
+              <use xlink:href="images/sprite.svg#icon-snapchat-ghost">
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </footer>
+</body>
+</html>

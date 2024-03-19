@@ -1,0 +1,93 @@
+.side-bar,
+.side-bar2{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 16rem;
+  background-color: ;
+  box-shadow:  0 2rem 6rem rgba(0, 0, 0, .06);
+  z-index: 1000;
+  background-color: white;
+}
+
+.side-bar__nav{
+
+}
+
+.section-hero{
+
+}
+
+.section-daily-food{
+  padding: 12rem 0;
+}
+
+.section-reservation{
+  min-height: 80vh;
+}
+
+.section-food-gallery{
+  padding: 10rem 0;
+}
+
+.section-associations{
+  padding: 10rem 0;
+}
+
+.footer{
+  background-image: linear-gradient(to right bottom, rgba(3, 3, 3, .8),
+   rgba(0, 0, 0, .8)), url(../images/footer-img.jpg);
+  height: 40rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media (max-width: 1200px){
+  .footer{
+    height: auto;
+  }
+}
+
+@media (max-width: 900px){
+  .section-daily-food{
+    padding: 5rem 0;
+  }
+
+  .section-associations{
+    padding: 5rem 0;
+  }
+
+  
+  .section-reservation{
+    min-height: 62vh;
+  }
+
+  .footer{
+    background-image: linear-gradient(to right bottom, rgba(3, 3, 3, .8),
+    rgba(0, 0, 0, .8)), url(../images/footer-img-small.jpg);
+  }
+}
+
+@media (max-width: 600px){
+  .side-bar{
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .side-bar2{
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .section-daily-food{
+    padding: 5rem 0;
+  }
+
+  .side-bar__nav-menu:checked ~ .side-bar2{
+    opacity: 1;
+    visibility: visible;
+  }
+}
