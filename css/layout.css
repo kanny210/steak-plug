@@ -77,6 +77,10 @@
     visibility: hidden;
   }
 
+  .section-reservation{
+    margin-bottom: 1rem;
+  }
+
   .section-daily-food{
     padding: 5rem 0;
   }
