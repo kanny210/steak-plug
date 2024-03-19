@@ -244,7 +244,7 @@
 .side-bar__link:visited
 {
   text-transform: uppercase;
-  color: black;
+  color: currentColor;
   display: flex;
   align-items: center;
   font-size: 1.4rem;
