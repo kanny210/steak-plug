@@ -79,7 +79,7 @@ body{
 
 .btn-others{
   background-color: red;
-   color: black;
+  color: black !important;
   white-space: nowrap;
 }
 
