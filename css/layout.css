@@ -90,3 +90,10 @@
     visibility: visible;
   }
 }
+
+@media only screen and (hover: none){
+  .side-bar{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
